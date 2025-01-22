@@ -2,6 +2,8 @@
 
 This script analyzes email messages for potential phishing indicators.
 
+>Download the email message.
+
 ## Usage
 
 1. Install the required dependencies: `pip install email quopri`
