@@ -30,6 +30,8 @@ Download the latest version of Mysql [here](https://dev.mysql.com/downloads/inst
 Run the configuration script: ` python .\pm_config.py `
 - It will create the database and you just need to create MASTER PASSWORD.
 
+![image alt](https://github.com/CrypterENC/Cybersecurity-Projects-based-on-Python/blob/efbab6863f31c426ede28364f78a9fc4b21ba3fd/Password_Manager_with_mysql/Screenshot%202025-01-23%20220129.png)
+
 ### Usage
 ```
 python password_mana.py -h
@@ -55,10 +57,12 @@ optional arguments:
 ```
 python password_mana.pyy add -s site_name -u site_name.com -e mail@email.com -l username
 ```
+![image alt](https://github.com/CrypterENC/Cybersecurity-Projects-based-on-Python/blob/efbab6863f31c426ede28364f78a9fc4b21ba3fd/Password_Manager_with_mysql/Screenshot%202025-01-23%20222558.png)
 ### Retrieve entry
 ```
 python password_mana.py extract
 ```
+![image alt](https://github.com/CrypterENC/Cybersecurity-Projects-based-on-Python/blob/efbab6863f31c426ede28364f78a9fc4b21ba3fd/Password_Manager_with_mysql/Screenshot%202025-01-23%20223134.png)
 ```
 python password_mana.py e -s site_name
 ```
