@@ -75,5 +75,5 @@ def main():
 		if args.login is not None:
 			search["username"] = args.login
 		if res is not None:
-			utils.retrive.retriveEntries(res[0],res[1],search,decryptPassword = args.copy)
+			utils.retrive.retriveEntries(res[0],res[1],search,decryptPassword = args.c)
 main()
