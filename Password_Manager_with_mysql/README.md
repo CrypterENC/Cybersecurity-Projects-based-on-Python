@@ -33,7 +33,7 @@ Run the configuration script: ` python .\pm_config.py `
 ### Usage
 ```
 python password_mana.py -h
-usage: password_manager [-h] [-s NAME] [-u URL] [-e EMAIL] [-l LOGIN] [--length LENGTH] [-c] option
+usage: password_manager [-h] [-s NAME] [-u URL] [-e EMAIL] [-l LOGIN] [-c] option
 
 Description: Uses Mysql to store all the data
 
@@ -48,7 +48,6 @@ optional arguments:
                         Email
   -l LOGIN, --login LOGIN
                         Username
-  --length LENGTH       Length of the password to generate
   -c                    Copy password to clipboard
 ```
 
