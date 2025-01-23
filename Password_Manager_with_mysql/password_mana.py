@@ -24,12 +24,11 @@ dMP        dMP dMP    VMMMP"    VMMMP"    VMMMPVMMP"     VMMMP"    dMP dMP    dM
 
 parser = argparse.ArgumentParser(description='Description: Uses Mysql to store all the data')
 
-parser.add_argument('option', help='(a)dd / (e)xtract / (g)enerate')
+parser.add_argument('option', help='(a)dd / (e)xtract')
 parser.add_argument("-s", "--name", help="Site name")
 parser.add_argument("-u", "--url", help="Site URL")
 parser.add_argument("-e", "--email", help="Email")
 parser.add_argument("-l", "--login", help="Username")
-parser.add_argument("--length", help="Length of the password to generate",type=int)
 parser.add_argument("-c", action='store_true', help='Copy password to clipboard')
 
 args = parser.parse_args()
@@ -77,13 +76,4 @@ def main():
 			search["username"] = args.login
 		if res is not None:
 			utils.retrive.retriveEntries(res[0],res[1],search,decryptPassword = args.copy)
-
-	if args.option in ["generate","g"]:
-		if args.length == None:
-			printc("[red][+][/red] Specify length of the password to generate (--length)")
-			return
-		password = utils.generate.generatePassword(args.length)
-		pyperclip.copy(password)
-		printc("[green][+][/green] Password generated and copied to clipboard")
-
 main()
