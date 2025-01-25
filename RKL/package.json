@@ -1,0 +1,15 @@
+{
+  "name": "rkl",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "0x1Crypter",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
