@@ -11,6 +11,8 @@ This project is a simple key logger server that listens for keyboard data from c
   
 ## Setup
 
+`git clone https://github.com/CrypterENC/Cybersecurity-Projects-based-on-Python.git `
+
 ### Linux : 
 
 - `sudo apt update`
