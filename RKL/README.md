@@ -1,5 +1,6 @@
+# The code provided is for educational purposes and should not be used for any illegal activities. It is important to be aware of the potential consequences of any actions taken based on the code provided. Always use such code responsibly and with proper authorization.
+---
 # Key Logger Server
-
 This project is a simple key logger server that listens for keyboard data from clients and logs it to a file.
 
 ## Prerequisites
