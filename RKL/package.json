@@ -1,15 +1,3 @@
-{
-  "name": "rkl",
-  "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "0x1Crypter",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b91399373c263979510749af589c40c4296c05fd7035e8f864d7fcc63a06ba9f
+size 296

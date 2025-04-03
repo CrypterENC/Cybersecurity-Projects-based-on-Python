@@ -1,0 +1,39 @@
+Write me a server-client application with the following requirements and features: 
+
+- The server-client communicate will be established via a TCP network socket.
+
+Server Application - it must be written in Electron that has a GUI interface. After launching the application a Window should be displayed with the following layout : 
+
+[text field for port number input] [Start Listening button] [Stop Listening button]
+
+a Table displaying connected TCP clients with the following column fields : 
+
+Hostname, Username, Ip Address, Os Type.
+
+The user ont he electron desktop application should be able to select a connected client from the table, two options should be displayed:
+
+Execute Command
+
+This should open up a new Window called Execute Command with the following layout:
+
+--Execute Command--
+
+[text field to input system Command] [Execute Button]
+
+--Display Results Window--
+
+Results of the Commands Executed on the connected client will be displayed here the window should be scrollable
+
+
+--------------------------------
+
+[ Close button ]
+
+Exit:
+this should terminate all the connected client tcp connection gracefully.
+
+Client application - the client application should be written in node js and it will take in two arguments, an ip Address and aa port number to connect to.
+
+eg: client.js 10.221.33.1 8443
+
+the client will submit the necessary data to the server to populate itself on the connected client
