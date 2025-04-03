@@ -41,7 +41,7 @@ node client.js <server_ip> <port>
 Example:
 
 ```bash
-node client.js 192.168.1.100 8443
+node client.js 192.168.X.XXX 8443
 ```
 
 ### Features
